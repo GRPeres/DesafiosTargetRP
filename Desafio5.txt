@@ -1,0 +1,13 @@
+Um possivel algoritmo para resolver:
+
+estado incial dos interruptores(X1,X2 e X3): 0-0-0
+
+seriam entao ativados dois interruptores tornando o estado atual: 1-1-0
+
+ao escolher umas das tres salas (A,B e C) e ver o estado nela temos duas possibilidades: 
+
+se a sala estiver apagada, esta e associada ao interruptor X3 e entao e repetido o teste com os interruptors X1 e X2, ligando apenas um desta vez, e uma sala diferente, assim resolvendo o problema.
+
+no caso da sala estiver ligada se torna impossivel resolver o problema sem outras duas iteracoes, acredito que uma das respostas plausiveis seja usar as propriedades fisicas de aquecimento para obter
+informacoes de lampadas mesmo que desligadas porem essa resposta nao funcionaria em cenarios de lampadas de led por exemplo, portanto acredito que a unica solucao real seja uma probabilistica, onde se 
+reinicia o problema quando nao se consegue o estado inicial desejado.
