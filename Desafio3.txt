@@ -1,1 +1,1 @@
-O valor impresso da variável SOMA = 91.
+O valor impresso da variável SOMA = 77.
